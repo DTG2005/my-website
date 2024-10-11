@@ -2,6 +2,7 @@
 
 const nextConfig = {
   output: "export",
+  basePath: "/my-website",
   images: {
     remotePatterns: [
       {
