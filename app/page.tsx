@@ -11,7 +11,7 @@ export default function Home() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-center">
           <div className="flex items-center justify-center">
             <Image
-              src="/profile-pic.png"
+              src="/my-website/profile-pic.png"
               alt="profile picture of developer DTG2005"
               className="fade-in-fwd"
               height={500}
@@ -50,7 +50,7 @@ export default function Home() {
             >
               <Image
                 className=""
-                src="/LI-In-Bug.png"
+                src="/my-website/LI-In-Bug.png"
                 alt="LinkedIn logo"
                 width={20}
                 height={20}
@@ -168,7 +168,7 @@ export default function Home() {
             >
               <Image
                 className=""
-                src="/mail.jpg"
+                src="/my-website/mail.jpg"
                 alt="LinkedIn logo"
                 width={20}
                 height={20}
@@ -183,7 +183,7 @@ export default function Home() {
             >
               <Image
                 className=""
-                src="/discord.png"
+                src="/my-website/discord.png"
                 alt="LinkedIn logo"
                 width={20}
                 height={20}
