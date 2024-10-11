@@ -14,7 +14,7 @@ export const Card = ({ title, image, text, link }: CardProps) => {
       className="block m-4 md:m-6 p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
     >
       <Image
-        src={image}
+        src={"/my-website" + image}
         className="rounded-t-lg"
         alt={title}
         width={500}

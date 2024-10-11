@@ -19,7 +19,7 @@ export const SmallerCard: React.FC<CardProps> = ({
       className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
     >
       <Image
-        src={image}
+        src={"/my-website" + image}
         className="w-16 h-16 rounded-full"
         alt={title}
         width={64}
