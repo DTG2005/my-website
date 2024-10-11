@@ -4,6 +4,7 @@ const nextConfig = {
   output: "export",
   basePath: "/my-website",
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
