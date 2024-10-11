@@ -16,7 +16,7 @@ const NavBar = () => {
           className="text-2xl font-bold transition duration-300 ease-in-out hover:bg-slate-500 hover:text-white"
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/david-taylor-7b5b021b0/",
+              "https://www.linkedin.com/in/divyam-maru-54a6941b2/",
               "_blank"
             )
           }

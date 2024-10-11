@@ -15,7 +15,7 @@ export const SmallerCard: React.FC<CardProps> = ({
 }: CardProps) => {
   return (
     <a
-      href={`/stacks/${link}`}
+      href={`/my-website/stacks/${link}`}
       className="flex items-center gap-4 p-4 border border-gray-200 rounded-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
     >
       <Image
