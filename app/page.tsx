@@ -97,6 +97,12 @@ export default function Home() {
               text="Intermediate level proficiency"
               link="java"
             />
+            <SmallerCard
+              title="SQL"
+              image="/sql.png"
+              text="Intermediate level proficiency"
+              link="sql"
+            />
           </ul>
           <div className="h-6"></div>
           <h1 className="text-3xl font-bold font-[family-name:var(--font-geist-mono)]">
