@@ -153,7 +153,50 @@ export default function Home() {
               link="ocr-digitization"
             />
           </ul>
+          <div className="flex flex-col gap-4 mt-12">
+            <h2 className="text-2xl font-bold">Contact Me</h2>
+            <p className="text-lg">
+              If you want to contact me for any reason, whether it be for a
+              collaboration, a project, or just to talk, feel free to use any of
+              the following methods:
+            </p>
+            <a
+              className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#f2f2f2] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 dark:hover:invert"
+              href="mailto:divyamthegreat5@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className=""
+                src="/mail.jpg"
+                alt="LinkedIn logo"
+                width={20}
+                height={20}
+              />
+              Email
+            </a>
+            <a
+              className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
+              href="https://discord.com/users/305403872438910977"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                className=""
+                src="/discord.png"
+                alt="LinkedIn logo"
+                width={20}
+                height={20}
+              />
+              Discord
+            </a>
+          </div>
         </main>
+        <footer className="flex items-center justify-center w-full h-12 border-t border-gray-200 dark:border-gray-700">
+          <p className="text-sm text-gray-500 dark:text-gray-400">
+            Copyright 2024 Divyam Maru
+          </p>
+        </footer>
       </div>
     </>
   );
