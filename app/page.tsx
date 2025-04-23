@@ -103,6 +103,12 @@ export default function Home() {
               text="Intermediate level proficiency"
               link="sql"
             />
+            <SmallerCard
+              title="Cybersecurity"
+              image="/sql.png"
+              text="Intermediate level proficiency"
+              link="cybersecurity"
+            />
           </ul>
           <div className="h-6"></div>
           <h1 className="text-3xl font-bold font-[family-name:var(--font-geist-mono)]">
