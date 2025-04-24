@@ -105,7 +105,7 @@ export default function Home() {
             />
             <SmallerCard
               title="Cybersecurity"
-              image="/sql.png"
+              image="/cybersecurity.png"
               text="Intermediate level proficiency"
               link="cybersecurity"
             />
